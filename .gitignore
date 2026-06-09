@@ -1,0 +1,64 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.egg
+.eggs/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Environments
+.env
+.venv/
+venv/
+env/
+
+# LaTeX build artifacts
+*.aux
+*.log
+*.out
+*.bbl
+*.blg
+*.toc
+*.lof
+*.lot
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+*.nav
+*.snm
+*.vrb
+
+# Model weights / checkpoints
+*.pt
+*.bin
+*.ckpt
+*.safetensors
+*.pth
+diffusion_models/
+classifier_models/
+ar_baseline/
+out_gen/
+generation_outputs/
+wandb/
+runs/
+logs/
+
+# Data (users should download separately)
+datasets/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Paper sources (kept out of public code repo)
+paper/
